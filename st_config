@@ -1,0 +1,12 @@
+# BEGIN RECORD 2.0-871
+discovery.startup = manual
+discovery.type = sendtargets
+discovery.sendtargets.address = 10.31.128.9
+discovery.sendtargets.port = 3260
+discovery.sendtargets.auth.authmethod = None
+discovery.sendtargets.timeo.login_timeout = 15
+discovery.sendtargets.reopen_max = 5
+discovery.sendtargets.timeo.auth_timeout = 45
+discovery.sendtargets.timeo.active_timeout = 30
+discovery.sendtargets.iscsi.MaxRecvDataSegmentLength = 32768
+# END RECORD
